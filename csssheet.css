@@ -1,0 +1,90 @@
+*{
+
+
+}
+/* style for the nav element */
+nav {
+    background-color: bisque;
+    padding: 0.05;
+    text-align: center;
+    box-shadow: .5em .5em .5em .5em teal;
+}
+
+/* style for the nav list item elements */
+nav li {
+    display: inline;
+}
+
+/* style for the nav links elements */
+nav li a {
+    color: teal;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: wavy;
+}
+
+/* style for the main element */
+nav li a:hover {
+    color: bisque;
+    background-color: teal;
+    transform: scale(1.3);
+}
+
+/* style for table*/
+
+#table {
+    display: block;
+    margin: 2%;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: grey;
+    box-shadow: .5em .5em .5em .5em teal;
+    float: left;
+    width: 95%;
+
+}
+
+.container{
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+}
+
+button{
+  background-color: lightblue;
+  padding: 1px;
+
+}
+
+
+table {
+    border: 3px solid black;
+    border-collapse: separate;
+    width: 95%;
+    text-align: justify;
+}
+tr{
+  padding: inherit;
+  justify-content: center;
+
+}
+th, td {
+    border: 3px solid white;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    background-color: lightblue;
+    color: blue;
+}
+
+td {
+    text-align: left;
+    background-color: lightgrey;
+    color: black;
+    font-family: 'IBM Plex Serif', serif;
+    padding: 1px;
+
+
+}
